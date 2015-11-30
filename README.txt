@@ -1,5 +1,5 @@
-# Samuel DeLaughter
-# 4/10/15
+Author: Samuel DeLaughter
+Last Updated: 4/10/15
 
 
 ABOUT:
