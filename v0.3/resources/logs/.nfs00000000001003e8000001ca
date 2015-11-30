@@ -1,0 +1,102 @@
+    INFO |                setup | Initializing
+   DEBUG |             register | 0 | 1431129209.09: Attempting to register with gateway at: http://128.119.243.147:9000
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 10 | 1431129209.1: Updated clock value to 10
+    INFO |             register | 10 | 1431129209.1: Registered with gateway. Using port number: 9002
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+    INFO |                serve | 11 | 1431129209.11: Starting Server
+   DEBUG |         update_clock | 12 | 1431129209.11: Updated clock value to 12
+   DEBUG |    gateway_heartbeat | 12 | 1431129209.11: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 14 | 1431129214.11: Updated clock value to 14
+   DEBUG |    gateway_heartbeat | 14 | 1431129214.11: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 16 | 1431129219.12: Updated clock value to 16
+   DEBUG |    gateway_heartbeat | 16 | 1431129219.12: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 18 | 1431129224.13: Updated clock value to 18
+   DEBUG |    gateway_heartbeat | 18 | 1431129224.13: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 20 | 1431129229.13: Updated clock value to 20
+   DEBUG |    gateway_heartbeat | 20 | 1431129229.13: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 22 | 1431129234.14: Updated clock value to 22
+   DEBUG |    gateway_heartbeat | 22 | 1431129234.14: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 24 | 1431129239.14: Updated clock value to 24
+   DEBUG |    gateway_heartbeat | 24 | 1431129239.14: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 26 | 1431129244.15: Updated clock value to 26
+   DEBUG |    gateway_heartbeat | 26 | 1431129244.15: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 28 | 1431129249.16: Updated clock value to 28
+   DEBUG |    gateway_heartbeat | 28 | 1431129249.16: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 30 | 1431129254.16: Updated clock value to 30
+   DEBUG |    gateway_heartbeat | 30 | 1431129254.16: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 32 | 1431129259.17: Updated clock value to 32
+   DEBUG |    gateway_heartbeat | 32 | 1431129259.17: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 34 | 1431129264.17: Updated clock value to 34
+   DEBUG |    gateway_heartbeat | 34 | 1431129264.17: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 36 | 1431129269.18: Updated clock value to 36
+   DEBUG |    gateway_heartbeat | 36 | 1431129269.18: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 38 | 1431129274.19: Updated clock value to 38
+   DEBUG |    gateway_heartbeat | 38 | 1431129274.19: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 40 | 1431129279.19: Updated clock value to 40
+   DEBUG |    gateway_heartbeat | 40 | 1431129279.19: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 42 | 1431129284.2: Updated clock value to 42
+   DEBUG |    gateway_heartbeat | 42 | 1431129284.2: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 44 | 1431129289.2: Updated clock value to 44
+   DEBUG |    gateway_heartbeat | 44 | 1431129289.21: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 46 | 1431129294.21: Updated clock value to 46
+   DEBUG |    gateway_heartbeat | 46 | 1431129294.21: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 48 | 1431129299.22: Updated clock value to 48
+   DEBUG |    gateway_heartbeat | 48 | 1431129299.22: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 50 | 1431129304.22: Updated clock value to 50
+   DEBUG |    gateway_heartbeat | 50 | 1431129304.22: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 52 | 1431129309.23: Updated clock value to 52
+   DEBUG |    gateway_heartbeat | 52 | 1431129309.23: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 54 | 1431129314.24: Updated clock value to 54
+   DEBUG |    gateway_heartbeat | 54 | 1431129314.24: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 56 | 1431129319.24: Updated clock value to 56
+   DEBUG |    gateway_heartbeat | 56 | 1431129319.24: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 58 | 1431129324.25: Updated clock value to 58
+   DEBUG |    gateway_heartbeat | 58 | 1431129324.25: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 60 | 1431129329.25: Updated clock value to 60
+   DEBUG |    gateway_heartbeat | 60 | 1431129329.25: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 62 | 1431129334.26: Updated clock value to 62
+   DEBUG |    gateway_heartbeat | 62 | 1431129334.26: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 64 | 1431129339.27: Updated clock value to 64
+   DEBUG |    gateway_heartbeat | 64 | 1431129339.27: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 66 | 1431129344.27: Updated clock value to 66
+   DEBUG |    gateway_heartbeat | 66 | 1431129344.27: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 68 | 1431129349.28: Updated clock value to 68
+   DEBUG |    gateway_heartbeat | 68 | 1431129349.28: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 70 | 1431129354.28: Updated clock value to 70
+   DEBUG |    gateway_heartbeat | 70 | 1431129354.28: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 72 | 1431129359.29: Updated clock value to 72
+   DEBUG |    gateway_heartbeat | 72 | 1431129359.29: Gateway still alive, checking again in 5 seconds
+   DEBUG |       build_receiver | Building receiver with address: http://128.119.243.147:9000
+   DEBUG |         update_clock | 74 | 1431129364.29: Updated clock value to 74
+   DEBUG |    gateway_heartbeat | 74 | 1431129364.29: Gateway still alive, checking again in 5 seconds

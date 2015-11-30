@@ -1,0 +1,27 @@
+Samuel DeLaughter
+5/8/15
+
+
+To implement a Paxos-style consensus protocol in this system:
+-------------------------------------------------------------
+
+Each device instance should initialize with self.paxos_proposal_number = 0
+
+To create a new proposal:
+ - Increment self.paxos_proposal
+ - Compose the proposal packet (key, proposal_number)
+ - Check how many devices are registered in self.devices, and send the proposal to at least half of the members (which will make up the quorum of acceptors)
+
+When a device receives a proposal:
+ - Check to see if a higher-numbered proposal has even been received from the same device (for the same key).  This would require keeping track of the maximum proposal number received from each device in self.devices, and also requires that id numbers are never reused.
+ - If the number is the largest yet seen, reply with a “Promise” packet, confirming that no smaller-numbered proposal will be accepted.  If a different proposal number has already been promised for the same key, reply with that proposal's number and value.  Otherwise, send a NACK so the proposer stops trying to communicate using that proposal number.
+
+Once the proposer receives replies from all devices in the quorum:
+ - If any of them reply that they have already promised a value, select the value corresponding to the highest proposal number
+ - Otherwise, the proposer is free to select its desired value
+ - It then sends an "Accept Request" message to each device in the quorum, telling them which value it has settled on
+ 
+ When a device receives an Accept Request message:
+ - If it has already sent a Promise for a higher proposal value, it ignores the request or sends a NACK
+ - Otherwise, it accepts the value and takes the corresponding action (set it as the value for the key identified)
+ 

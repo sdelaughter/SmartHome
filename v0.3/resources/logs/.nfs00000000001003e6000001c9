@@ -1,0 +1,85 @@
+   DEBUG |             register | 0 | 1431129207.12: Attempting to register with the gateway
+   DEBUG |  get_gateway_address | Read gateway addresses from file: ['http://128.119.243.147:9000\n']
+   DEBUG |  get_gateway_address | Returning randomly selected address: http://128.119.243.147:9000
+
+   DEBUG |         update_clock | 5 | 1431129207.13: Updated clock value to 5
+    INFO |             register | 5 | 1431129207.13: Registered with gateway. Using port number: 9001
+    INFO |           request_db | 5 | 1431129207.13: Wrote new database request with filename: db_requests/req_1431129207.13
+    INFO |                serve | 6 | 1431129207.13: Starting Server at http://128.119.243.147:9001
+   DEBUG |         update_clock | 7 | 1431129209.1: Updated clock value to 7
+   DEBUG |           add_device | 7 | 1431129209.1: Added device with ID 2 to list: {'ip': '128.119.243.147', 'port': 9002, 'name': 'backend', 'id': '2'}
+   DEBUG |         update_clock | 8 | 1431129211.43: Updated clock value to 8
+   DEBUG |          register_db | 8 | 1431129211.43: Received registration request from backend device at 128.119.243.147
+   DEBUG |          register_db | 8 | 1431129211.43: No previously registered backend device, processing request...
+   DEBUG |          register_db | 8 | 1431129211.43: Assigning new backend device id: 3
+   DEBUG |          register_db | 8 | 1431129211.43: Assigning new backend device port number: 9003
+   DEBUG |          register_db | 8 | 1431129211.43: Adding new device: {'port': 9003, 'ip': '128.119.243.147', 'id': '3', 'name': 'backend'}
+   DEBUG |         update_clock | 13 | 1431129211.43: Updated clock value to 13
+   DEBUG |           new_device | 13 | 1431129211.43: Added device with ID 3 to the gateway at http://128.119.243.147:9000
+   DEBUG |          register_db | 14 | 1431129211.43: Registered new backend device: {'port': 9003, 'ip': '128.119.243.147', 'id': '3', 'name': 'backend'}
+   DEBUG |          register_db | 14 | 1431129211.43: Current Device List: {'1': {'ip': '128.119.243.147', 'port': 9001, 'name': 'gateway', 'id': '1'}, '0': {'category': 'gateway', 'ip': '128.119.243.147', 'name': 'gateway', 'port': 9000}, '3': {'port': 9003, 'ip': '128.119.243.147', 'id': '3', 'name': 'backend'}, '2': {'ip': '128.119.243.147', 'port': 9002, 'name': 'backend', 'id': '2'}}
+   DEBUG |          register_db | 14 | 1431129211.43: Returning port: 9003
+   DEBUG |         update_clock | 16 | 1431129211.44: Updated clock value to 16
+   DEBUG |                 ping | 16 | 1431129211.44: Received ping, returning current state: 
+   DEBUG |         update_clock | 18 | 1431129216.44: Updated clock value to 18
+   DEBUG |                 ping | 18 | 1431129216.44: Received ping, returning current state: 
+   DEBUG |         update_clock | 20 | 1431129221.45: Updated clock value to 20
+   DEBUG |                 ping | 20 | 1431129221.45: Received ping, returning current state: 
+   DEBUG |         update_clock | 22 | 1431129226.45: Updated clock value to 22
+   DEBUG |                 ping | 22 | 1431129226.45: Received ping, returning current state: 
+   DEBUG |         update_clock | 24 | 1431129231.46: Updated clock value to 24
+   DEBUG |                 ping | 24 | 1431129231.46: Received ping, returning current state: 
+   DEBUG |         update_clock | 26 | 1431129236.47: Updated clock value to 26
+   DEBUG |                 ping | 26 | 1431129236.47: Received ping, returning current state: 
+   DEBUG |         update_clock | 28 | 1431129241.47: Updated clock value to 28
+   DEBUG |                 ping | 28 | 1431129241.47: Received ping, returning current state: 
+   DEBUG |         update_clock | 30 | 1431129246.48: Updated clock value to 30
+   DEBUG |                 ping | 30 | 1431129246.48: Received ping, returning current state: 
+   DEBUG |         update_clock | 32 | 1431129251.48: Updated clock value to 32
+   DEBUG |                 ping | 32 | 1431129251.48: Received ping, returning current state: 
+   DEBUG |         update_clock | 34 | 1431129256.49: Updated clock value to 34
+   DEBUG |                 ping | 34 | 1431129256.49: Received ping, returning current state: 
+   DEBUG |         update_clock | 36 | 1431129261.5: Updated clock value to 36
+   DEBUG |                 ping | 36 | 1431129261.5: Received ping, returning current state: 
+   DEBUG |         update_clock | 38 | 1431129266.5: Updated clock value to 38
+   DEBUG |                 ping | 38 | 1431129266.5: Received ping, returning current state: 
+   DEBUG |         update_clock | 40 | 1431129271.51: Updated clock value to 40
+   DEBUG |                 ping | 40 | 1431129271.51: Received ping, returning current state: 
+   DEBUG |         update_clock | 42 | 1431129276.51: Updated clock value to 42
+   DEBUG |                 ping | 42 | 1431129276.51: Received ping, returning current state: 
+   DEBUG |         update_clock | 44 | 1431129281.52: Updated clock value to 44
+   DEBUG |                 ping | 44 | 1431129281.52: Received ping, returning current state: 
+   DEBUG |         update_clock | 46 | 1431129286.53: Updated clock value to 46
+   DEBUG |                 ping | 46 | 1431129286.53: Received ping, returning current state: 
+   DEBUG |         update_clock | 48 | 1431129291.53: Updated clock value to 48
+   DEBUG |                 ping | 48 | 1431129291.53: Received ping, returning current state: 
+   DEBUG |         update_clock | 50 | 1431129296.54: Updated clock value to 50
+   DEBUG |                 ping | 50 | 1431129296.54: Received ping, returning current state: 
+   DEBUG |         update_clock | 52 | 1431129301.55: Updated clock value to 52
+   DEBUG |                 ping | 52 | 1431129301.55: Received ping, returning current state: 
+   DEBUG |         update_clock | 54 | 1431129306.55: Updated clock value to 54
+   DEBUG |                 ping | 54 | 1431129306.55: Received ping, returning current state: 
+   DEBUG |         update_clock | 56 | 1431129311.56: Updated clock value to 56
+   DEBUG |                 ping | 56 | 1431129311.56: Received ping, returning current state: 
+   DEBUG |         update_clock | 58 | 1431129316.56: Updated clock value to 58
+   DEBUG |                 ping | 58 | 1431129316.56: Received ping, returning current state: 
+   DEBUG |         update_clock | 60 | 1431129321.57: Updated clock value to 60
+   DEBUG |                 ping | 60 | 1431129321.57: Received ping, returning current state: 
+   DEBUG |         update_clock | 62 | 1431129326.58: Updated clock value to 62
+   DEBUG |                 ping | 62 | 1431129326.58: Received ping, returning current state: 
+   DEBUG |         update_clock | 64 | 1431129331.58: Updated clock value to 64
+   DEBUG |                 ping | 64 | 1431129331.58: Received ping, returning current state: 
+   DEBUG |         update_clock | 66 | 1431129336.59: Updated clock value to 66
+   DEBUG |                 ping | 66 | 1431129336.59: Received ping, returning current state: 
+   DEBUG |         update_clock | 68 | 1431129341.59: Updated clock value to 68
+   DEBUG |                 ping | 68 | 1431129341.59: Received ping, returning current state: 
+   DEBUG |         update_clock | 70 | 1431129346.6: Updated clock value to 70
+   DEBUG |                 ping | 70 | 1431129346.6: Received ping, returning current state: 
+   DEBUG |         update_clock | 72 | 1431129351.61: Updated clock value to 72
+   DEBUG |                 ping | 72 | 1431129351.61: Received ping, returning current state: 
+   DEBUG |         update_clock | 74 | 1431129356.61: Updated clock value to 74
+   DEBUG |                 ping | 74 | 1431129356.61: Received ping, returning current state: 
+   DEBUG |         update_clock | 76 | 1431129361.62: Updated clock value to 76
+   DEBUG |                 ping | 76 | 1431129361.62: Received ping, returning current state: 
+   DEBUG |         update_clock | 78 | 1431129366.62: Updated clock value to 78
+   DEBUG |                 ping | 78 | 1431129366.62: Received ping, returning current state: 
