@@ -6,6 +6,7 @@ ABOUT:
 ------
 
 This is a distributed system simulating a home "internet-of-things" network composed of a gateway, backend database, and user terminal, along with several sensors and smart devices.
+I initially created it as a project for my graduate course on Distributed Operating Systems at the University of Massachusetts Amherst.
 
 
 EXECUTION:
