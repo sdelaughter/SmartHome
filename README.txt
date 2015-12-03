@@ -1,3 +1,6 @@
+#SmartHome
+A python-based distributed operating system for a smart home / internet of things
+
 Author: Samuel DeLaughter
 Last Updated: 11/30/15
 
